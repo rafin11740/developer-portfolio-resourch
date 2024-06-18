@@ -44,12 +44,10 @@ nav li {
 }
 
 .header {
-    background-color: #FFF8F3;
-    width: 1600px;
-    height: 837px;
-    background-image: url("/images/header_bg.png");
+    background-color: #f9f9f9;
+    background-image: url(/images/header_bg.png), url(/images/developer.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom right, left;
 }
 
 /* banner style */
@@ -57,6 +55,7 @@ nav li {
 .banner {
     display: flex;
     align-items: center;
+    margin: 0px 230px;
     
 }
 
@@ -70,6 +69,46 @@ nav li {
     margin-bottom: 20px;
 }
 
-.banner-description {}
 
-.banner img {}
+.banner-description {
+    margin-bottom: 30px;
+}
+
+/* main section */
+
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    margin-top: 80px;
+    background-color: #FFF8F3;
+    padding:168px 150px ;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.section-description{
+   font-size: 20px;
+}
+
+.about-info-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-around;
+  
+}
+.info-title{
+color: dark;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+}
+.self-description{
+    
+}
