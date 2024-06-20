@@ -165,8 +165,40 @@ nav li {
 .btn-button{
     background-color: #FD6E0A;
     padding: 10px 25px;
-    position: absolute;
+    /* position: absolute; */
+    margin-bottom: 15px;
+   
+}
+.button{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/* Footer */
+.footer{
+    background-color: #D5CFCB;;
+}
+
+.footer-container{
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 125px;
+    padding: 100px 200px;
+}
+
+
+.btn-footer{
+    
+    padding: 8px 30px;
+}
+.let-emessag{
+
+}
+.let-emessag input{
+    
+    padding: 7px 20px;
+    margin-top: 10px;
 }
